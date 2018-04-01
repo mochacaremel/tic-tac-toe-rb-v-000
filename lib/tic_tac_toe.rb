@@ -112,7 +112,7 @@
 	  start_game
 	  new_board
 	  while true
-	    print_grid
+	    display_board
 	    user_turn
 	    comp_turn
 	  end
