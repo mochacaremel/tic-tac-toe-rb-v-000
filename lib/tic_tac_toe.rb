@@ -69,7 +69,7 @@
 	    if user_choice == choice 
 	      if check_validity(square)
 	        square.sub!(" ", "X")
-	        print_grid
+	        display_board
 	      end
 	    elsif user_choice == "q" or user_choice == "quit"
 	      exit
