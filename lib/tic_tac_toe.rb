@@ -1,6 +1,6 @@
  board = ["X"," "," "," "," "," "," "," "," "]
  puts "Welcome to Tic Tac Toe!"
- puts display(board)
+ puts display_board(board)
  turn(board)
  play(board)
 
