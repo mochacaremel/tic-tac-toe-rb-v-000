@@ -26,7 +26,6 @@
      exit
    end
 
-=======
 # Define your play method below
 
  def display_board(board)
