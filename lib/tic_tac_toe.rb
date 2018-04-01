@@ -29,18 +29,14 @@
 	  
 	end
 	 
-	def display_board(board)
-	  puts
-	  puts "   1   2   3"
-	  puts "A  #{@a1} | #{@a2} | #{@a3} " 
-	  puts "  ---|---|---"
-	  puts "B  #{@b1} | #{@b2} | #{@b3} "
-	  puts "  ---|---|---"
-	  puts "C  #{@c1} | #{@c2} | #{@c3} "
-	  puts
-	  check_for_winner
-	  
-	end
+ def display_board(board)
+   puts " #{board[0]} | #{board[1]} | #{board[2]} "
+   puts "-----------"
+   puts " #{board[3]} | #{board[4]} | #{board[5]} "
+   puts "-----------"
+   puts " #{board[6]} | #{board[7]} | #{board[8]} "
+ end
+
 	 
 	#def method to check if user's choice of move is valid/available. this should be called only after the player has had 3 turns but I don't know how to do that. 
 	def check_validity square_availability
