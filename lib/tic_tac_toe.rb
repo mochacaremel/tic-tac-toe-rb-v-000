@@ -1,8 +1,16 @@
- board = ["X"," "," "," "," "," "," "," "," "]
- puts "Welcome to Tic Tac Toe!"
- puts display_board(board)
- turn(board)
- play(board)
+require_relative "../lib/tic_tac_toe.rb"
+
+puts "Welcome to tic tac toe"
+bob = TicTacToe::Player.new({color: "X", name: "bob"})
+frank = TicTacToe::Player.new({color: "O", name: "frank"})
+players = [bob, frank]
+TicTacToe::Game.new(players).play
+
+ # board = ["X"," "," "," "," "," "," "," "," "]
+ # puts "Welcome to Tic Tac Toe!"
+ # puts display_board(board)
+ # turn(board)
+ # play(board)
 
  def won?(board)
    WIN_COMBINATIONS.detect do |win_combination|
