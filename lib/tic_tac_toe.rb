@@ -29,7 +29,6 @@
 	  
 	end
 	 
-	#the print_grid method draws a picture of the grid that holds the empty spaces from the squares array. 
 	def display_board(board)
 	  puts
 	  puts "   1   2   3"
