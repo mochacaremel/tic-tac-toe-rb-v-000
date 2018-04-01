@@ -1,8 +1,13 @@
-require_relative 'bin/tictactoe'
+<<<<<<< HEAD
 
  module TicTacToe
    LINES = [[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,9],[3,5,7]]
 
+=======
+ module TicTacToe
+   LINES = [[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,9],[3,5,7]]
+
+>>>>>>> e65e060af087e74e5ce5a46d97a6409255bf7253
    class Game
      def initialize(player_1_class, player_2_class)
        @board = Array.new(10) # we ignore index 0 for convenience
@@ -260,4 +265,9 @@ require_relative 'bin/tictactoe'
      puts "It's a draw!"
      exit
    end
+<<<<<<< HEAD
    current_player = players.next
+=======
+
+  #  current_player = players.next
+>>>>>>> e65e060af087e74e5ce5a46d97a6409255bf7253
